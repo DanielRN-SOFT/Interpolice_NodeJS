@@ -1,6 +1,7 @@
-## BITACORA DEL PROYECTO
+# BITACORA DEL PROYECTO
 
 # HERRAMIENTAS DEL BACK
+
 Gestor de base de datos: MySQL - Maria DB
 
 express: FrameWork de Node JS => Gestionar APIS usando protocolo http
@@ -11,13 +12,36 @@ CORS: Plugin para la gestion de CORS
 env: Variables globales del proyecto (credenciales, rutas)
 
 # HERRAMIENTAS FRONT
+
 CSS: Framework Boostrap
 BUNDLE: Vite --(webpack)
 Vanilla JS
 
-
 ## PASO A PASO BACKEND
+
 - Inicializar el proyecto con Node JS - npm init
 - Instalar los paquetes requeridos : npm install nodemon mysql2 cors env express
 - Configurar el control de versiones del codigo: crear el .gitignore
 - Iniciar el seguimiento del repositorio: git init, git add .
+- Creamos el repo en la nube: GitHub
+- Conectamos el repo de la nube con el repo local
+  git remote add origin https://github.com/DanielRN-SOFT/Interpolice_NodeJS.git
+  git push -u origin main
+- Hacemos la primer actualizacion local y remota:
+  local: git commit -m "Inicio del proyecto"
+  remota: git push -u origin main
+- Revision del package.json: verificar las dependencias
+- Modificamos el package para ejecucion del proyecto:
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+
+## Codificacion del proyecto
+- Crear el archivo principal: index.js
+- Configurar los plugins: nodemon, cors, hacer la primer prueba
+npm run dev(modo desarrollador) npm start(modo produccion)
+
+## Creacion del modulo conexion a la base de datos 
+
+- Importamos la libreria mysql2 y hacemos la conexion de acuerdo al ejemplo
+
+## Codificacion del modulo ciudadano
