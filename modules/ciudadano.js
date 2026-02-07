@@ -1,9 +1,7 @@
 // Modulo para manipulacion del usuario
 import express from "express";
 import { cnx } from "./bdatos.js";
-
 export const ciudadano = express();
-
 // CRUD basico de ciudadanos
 
 // Listar todos los ciudadanos
