@@ -60,3 +60,13 @@ MODELS: Se encarga de la interaccion (consultas) con el sistema gestor de base d
 MIDDLEWARE: Capa intermedia entre el cliente y la API (Ejemplo validar token, validar IP por CORS)
 
 HELPERS: Ayudas, ayudantes, clases o funciones reusables del sistema, por ejemplo un sistema de errores
+
+## CONFIGURACION DE VARIABLES DE ENTORNO / GLOBALES
+Sirven para mejorar la confidencialidad, mejor mantenibilidad
+en Node JS: variables .env
+Installar el paquete dotenv y configurarlo (Nota: Node JS ya lo implementa nativo)
+- npm i dotenv
+- Crear archivo .env en el raiz del proyecto
+- Ver el ejemplo de archivo .env (recuerde crear estilo constantes)
+
+

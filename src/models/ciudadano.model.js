@@ -1,10 +1,10 @@
 // Capa modelo para el modulo de ciudadanos
 
 // Importamos la conexion
-import { cnx } from "./bdatos.js";
+import {db} from "./bdatos.js";
 
 // Activar el manejo de promesas (asincronica);
-const db = cnx.promise();
+
 
 // Creamos el modulo : usando el concepto de orientado a objetos
 // Clase modelo correspondiente a ciudadano
